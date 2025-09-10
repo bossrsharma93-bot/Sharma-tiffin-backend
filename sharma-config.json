@@ -1,0 +1,45 @@
+{
+  "businessName": "Sharma Tiffin Service",
+  "city": "Jabalpur",
+  "contactPhone": "8305484626",
+  "contactEmail": "contact@sharmatiffin.example",
+  "upiId": "prince190992-1@okicici",
+  "pricing": {
+    "dailyMeal": 90,
+    "monthlyVeg": 3000,
+    "monthlyNonVeg": 3800,
+    "breakfast": 40
+  },
+  "delivery": {
+    "selfDelivery": true,
+    "feeRule": "slab_by_distance_km",
+    "slabs": [
+      {
+        "maxKm": 3,
+        "fee": 10
+      },
+      {
+        "maxKm": 6,
+        "fee": 20
+      },
+      {
+        "maxKm": 10,
+        "fee": 30
+      },
+      {
+        "maxKm": 999,
+        "fee": 50
+      }
+    ]
+  },
+  "admin": {
+    "pin": "1234",
+    "features": [
+      "view_orders",
+      "update_status",
+      "edit_menu",
+      "export_csv"
+    ]
+  },
+  "createdAt": "2025-09-09T19:36:52.716159Z"
+}
